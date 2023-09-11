@@ -1,0 +1,42 @@
+@charset "UTF-8";
+table td {
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+table thead {
+  background: #4a4dee;
+  color: white;
+}
+table thead th {
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+table thead .sortedUp::after {
+  content: " ↑";
+}
+table thead .sortedDown::after {
+  content: " ↓";
+}
+
+table tbody tr:nth-child(2n) {
+  background: #ffe3e3;
+  color: black;
+}
+
+.buttons-container {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+.buttons-container button {
+  padding: 5px;
+}
+.buttons-container span {
+  margin: 0 10px;
+}
+
+.sorted {
+  background: red;
+}

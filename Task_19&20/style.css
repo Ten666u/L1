@@ -1,0 +1,43 @@
+.widget_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+}
+.widget_container #posts_container {
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.post {
+  width: 530px;
+  padding: 10px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin-top: 15px;
+}
+
+.post_date {
+  text-align: right;
+}
+
+.post_txt {
+  margin-top: 10px;
+  white-space: pre-line;
+}
+
+.post_img {
+  margin-top: 10px;
+  width: 530px;
+  border-radius: 8px;
+}

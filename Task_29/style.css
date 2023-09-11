@@ -1,0 +1,43 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 85vh;
+}
+
+form {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 500px;
+  padding: 20px;
+}
+form h1 {
+  margin: 0;
+}
+form label {
+  margin-top: 8px;
+  display: block;
+}
+
+div {
+  margin-top: 8px;
+}
+div label {
+  display: inline;
+}
+
+#labelAge {
+  margin-top: 8px;
+}
+
+button {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;
+}

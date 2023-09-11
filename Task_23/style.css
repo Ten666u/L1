@@ -1,0 +1,49 @@
+body {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#password {
+  height: 25px;
+  font-size: 20px;
+  width: 250px;
+}
+
+#passwordStatusTxt {
+  font-size: 18px;
+}
+
+#passwordStatus {
+  width: 250px;
+}
+#passwordStatus::-webkit-progress-value {
+  color: red;
+}
